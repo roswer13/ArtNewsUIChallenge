@@ -16,4 +16,7 @@
     <PackageReference Include="Xamarin.FFImageLoading" Version="2.4.6.929" />
     <PackageReference Include="Xamarin.FFImageLoading.Forms" Version="2.4.6.929" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Style\" />
+  </ItemGroup>
 </Project>

@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms" x:Class="ArtNews.Views.DetailAuthorPage">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="AuthorNameStyle" TargetType="Label">
+                <Setter Property="FontFamily" Value="{StaticResource BodoniFLFRoman}" />
+                <Setter Property="FontSize" Value="{StaticResource FontSize36}" />
+                <Setter Property="LineBreakMode" Value="WordWrap" />
+                <Setter Property="MaxLines" Value="2" />
+            </Style>
+            <Style x:Key="AuthorDatesStyle" TargetType="Label">
+                <Setter Property="FontFamily" Value="{StaticResource BodoniFLFRoman}" />
+                <Setter Property="FontSize" Value="{StaticResource FontSize16}" />
+            </Style>
+            <Style x:Key="AuthorDescriptionStyle" TargetType="Label">
+                <Setter Property="FontFamily" Value="{StaticResource BodoniFLFRoman}" />
+                <Setter Property="FontSize" Value="{StaticResource FontSize14}" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
     <ContentPage.ToolbarItems>
         <ToolbarItem Order="Primary" Icon="share_icon.png" Text="Share" />
     </ContentPage.ToolbarItems>
@@ -20,7 +38,7 @@
                     <RowDefinition Height="Auto" />
                     <RowDefinition Height="Auto" />
                 </Grid.RowDefinitions>
-                <Label Grid.Row="0" Text="{Binding Author.Name}" FontSize="Large" />
+                <Label Grid.Row="0" Text="{Binding Author.Name}" Style="{StaticResource AuthorNameStyle}" />
                 <Label Grid.Row="1" Grid.ColumnSpan="2" Text="{Binding Author.Dates}" />
                 <Label Grid.Row="2" Grid.ColumnSpan="2" FontSize="Small" Text="{Binding Author.Description}" />
             </Grid>

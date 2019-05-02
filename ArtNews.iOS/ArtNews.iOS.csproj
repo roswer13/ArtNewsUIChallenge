@@ -133,6 +133,10 @@
     <BundleResource Include="Resources\botticelli08.jpg" />
     <BundleResource Include="Resources\heart_icon.png" />
     <BundleResource Include="Resources\share_icon.png" />
+    <BundleResource Include="Resources\BodoniFLF-Bold.ttf" />
+    <BundleResource Include="Resources\BodoniFLF-BoldItalic.ttf" />
+    <BundleResource Include="Resources\BodoniFLF-Italic.ttf" />
+    <BundleResource Include="Resources\BodoniFLF-Roman.ttf" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
