@@ -42,7 +42,7 @@
     -->
     <Shell.Resources>
         <ResourceDictionary>
-            <Color x:Key="NavigationPrimary">#000000</Color>
+            <Color x:Key="NavigationPrimary">#00FFFFFF</Color>
             <Style x:Key="BaseStyle" TargetType="Element">
                 <Setter Property="Shell.ShellBackgroundColor" Value="{StaticResource NavigationPrimary}" />
                 <Setter Property="Shell.ShellForegroundColor" Value="Black" />

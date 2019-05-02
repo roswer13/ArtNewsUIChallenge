@@ -14,7 +14,7 @@ namespace ArtNews
             InitializeComponent();
 
             //DependencyService.Register<MockDataStore>();
-            MainPage = new AppShell();
+            MainPage = new NavigationPage(new DetailAuthorPage());
         }
 
         protected override void OnStart()
