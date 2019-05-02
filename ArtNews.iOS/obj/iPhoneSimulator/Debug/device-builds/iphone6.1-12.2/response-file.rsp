@@ -163,7 +163,12 @@
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.XPath.XDocument.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.XPath.XmlDocument.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.Xsl.Primitives.dll
+-r=/Users/roswergarcia/.nuget/packages/webp.touch/1.0.8/lib/Xamarin.iOS10/WebP.Touch.dll
 -r=/Users/roswergarcia/.nuget/packages/xamarin.essentials/1.0.1/lib/xamarinios10/Xamarin.Essentials.dll
+-r=/Users/roswergarcia/.nuget/packages/xamarin.ffimageloading/2.4.6.929/lib/Xamarin.iOS10/FFImageLoading.Platform.dll
+-r=/Users/roswergarcia/.nuget/packages/xamarin.ffimageloading/2.4.6.929/lib/Xamarin.iOS10/FFImageLoading.dll
+-r=/Users/roswergarcia/.nuget/packages/xamarin.ffimageloading.forms/2.4.6.929/lib/Xamarin.iOS10/FFImageLoading.Forms.Platform.dll
+-r=/Users/roswergarcia/.nuget/packages/xamarin.ffimageloading.forms/2.4.6.929/lib/Xamarin.iOS10/FFImageLoading.Forms.dll
 -r=/Users/roswergarcia/.nuget/packages/xamarin.forms/3.6.0.264807/lib/Xamarin.iOS10/Xamarin.Forms.Core.dll
 -r=/Users/roswergarcia/.nuget/packages/xamarin.forms/3.6.0.264807/lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll
 -r=/Users/roswergarcia/.nuget/packages/xamarin.forms/3.6.0.264807/lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll

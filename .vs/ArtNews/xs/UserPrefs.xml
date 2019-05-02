@@ -2,26 +2,21 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="ArtNews/Views/DetailAuthorPage.xaml">
     <Files>
       <File FileName="ArtNews/Views/DetailAuthorPage.xaml" />
-      <File FileName="ArtNews/ViewModels/ItemsViewModel.cs" Line="13" Column="18" />
-      <File FileName="ArtNews/Views/ItemsPage.xaml.cs" Line="10" Column="22" />
-      <File FileName="ArtNews/Views/ItemsPage.xaml" />
+      <File FileName="ArtNews/Models/Author.cs" Line="11" Column="40" />
+      <File FileName="ArtNews.iOS/Main.cs" Line="17" Column="1" />
+      <File FileName="ArtNews/AppShell.xaml" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ArtNews" expanded="True">
             <Node name="ArtNews" expanded="True">
-              <Node name="Services" expanded="True" />
-              <Node name="ViewModels" expanded="True" />
+              <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="DetailAuthorPage.xaml" expanded="True" selected="True" />
-                <Node name="ItemsPage.xaml" expanded="True" />
+                <Node name="DetailAuthorPage.xaml" selected="True" />
               </Node>
-              <Node name="AppShell.xaml" expanded="True" />
             </Node>
-            <Node name="ArtNews.iOS" expanded="True">
-              <Node name="Resources" expanded="True" />
-            </Node>
+            <Node name="ArtNews.iOS" expanded="True" />
           </Node>
         </State>
       </Pad>
@@ -29,10 +24,10 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.ArtNews.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.FF21F060-C489-4480-88B1-B025CE292CD5" />
+  <MonoDevelop.Ide.ItemProperties.ArtNews.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.C714E1FC-C15E-49A8-BBA0-33C52260520A" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.ArtNews.Android PreferredExecutionTarget="Android.10.1_WXGA_Tablet_API_23" />
+  <MonoDevelop.Ide.ItemProperties.ArtNews.Android AndroidDesignerPreferredTheme="Theme.DeviceDefault.Light.NoActionBar.Fullscreen" PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
 </Properties>

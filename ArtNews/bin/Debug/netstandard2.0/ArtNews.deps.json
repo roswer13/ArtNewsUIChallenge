@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "7fa1b6f126e6dc85ed77b0918b238e5707871150"
+    "signature": "28fe06eb5d098cee18fcd162bbb287b8bff687c2"
   },
   "compilationOptions": {},
   "targets": {
@@ -11,6 +11,8 @@
         "dependencies": {
           "NETStandard.Library": "2.0.3",
           "Xamarin.Essentials": "1.0.1",
+          "Xamarin.FFImageLoading": "2.4.6.929",
+          "Xamarin.FFImageLoading.Forms": "2.4.6.929",
           "Xamarin.Forms": "3.6.0.264807"
         },
         "runtime": {
@@ -39,6 +41,30 @@
           "lib/netstandard2.0/Xamarin.Essentials.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Xamarin.FFImageLoading/2.4.6.929": {
+        "runtime": {
+          "lib/netstandard1.0/FFImageLoading.Platform.dll": {
+            "assemblyVersion": "2.4.6.929",
+            "fileVersion": "2.4.6.929"
+          },
+          "lib/netstandard1.0/FFImageLoading.dll": {
+            "assemblyVersion": "2.4.6.929",
+            "fileVersion": "2.4.6.929"
+          }
+        }
+      },
+      "Xamarin.FFImageLoading.Forms/2.4.6.929": {
+        "dependencies": {
+          "Xamarin.FFImageLoading": "2.4.6.929",
+          "Xamarin.Forms": "3.6.0.264807"
+        },
+        "runtime": {
+          "lib/netstandard1.0/FFImageLoading.Forms.dll": {
+            "assemblyVersion": "2.4.6.929",
+            "fileVersion": "2.4.6.929"
           }
         }
       },
@@ -93,6 +119,20 @@
       "sha512": "sha512-TUsMSXqdLEZlx0O3EcWMwOF5e8X3Gh0GX28FlH3q8iyKAQBYd8tV+Ja7tHMplf7D8V4NVCG9ELqx2nk/jPWPew==",
       "path": "xamarin.essentials/1.0.1",
       "hashPath": "xamarin.essentials.1.0.1.nupkg.sha512"
+    },
+    "Xamarin.FFImageLoading/2.4.6.929": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CwsJ+h3CFAiqktMpRLHEXKjZs1M5LuFaeMpUetyTyND1d/4VA91qRGR1NC3/pvzbSmtCsU22MzJS9DRWO/9KKA==",
+      "path": "xamarin.ffimageloading/2.4.6.929",
+      "hashPath": "xamarin.ffimageloading.2.4.6.929.nupkg.sha512"
+    },
+    "Xamarin.FFImageLoading.Forms/2.4.6.929": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5W4eFxquNFXKGrDWiHt4rNRMMPyKPtxB13Vg1JvoNFf6NxSxBrcFbMaHnaam5Q7RCGOym+b20bdWmuYeM1th8g==",
+      "path": "xamarin.ffimageloading.forms/2.4.6.929",
+      "hashPath": "xamarin.ffimageloading.forms.2.4.6.929.nupkg.sha512"
     },
     "Xamarin.Forms/3.6.0.264807": {
       "type": "package",

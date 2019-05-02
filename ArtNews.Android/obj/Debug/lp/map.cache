@@ -1,4 +1,8 @@
 ArtNews
+FFImageLoading
+FFImageLoading.Forms
+FFImageLoading.Forms.Platform
+FFImageLoading.Platform
 FormsViewGroup
 System.Runtime
 Xamarin.Android.Arch.Core.Common
@@ -27,3 +31,5 @@ Xamarin.Forms.Platform.Android
 Xamarin.Forms.Platform
 Xamarin.Forms.Xaml
 netstandard
+System.Resources.ResourceManager
+System.Reflection.Extensions

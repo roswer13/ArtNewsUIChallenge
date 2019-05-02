@@ -112,6 +112,10 @@ class MonoPackageManager_Resources {
 		/* We need to ensure that "ArtNews.Android.dll" comes first in this list. */
 		"ArtNews.Android.dll",
 		"ArtNews.dll",
+		"FFImageLoading.dll",
+		"FFImageLoading.Forms.dll",
+		"FFImageLoading.Forms.Platform.dll",
+		"FFImageLoading.Platform.dll",
 		"FormsViewGroup.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",

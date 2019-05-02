@@ -1,6 +1,4 @@
-/Users/roswergarcia/Projects/ArtNews/ArtNews/bin/Debug/netstandard2.0/ArtNews.deps.json
-/Users/roswergarcia/Projects/ArtNews/ArtNews/bin/Debug/netstandard2.0/ArtNews.dll
-/Users/roswergarcia/Projects/ArtNews/ArtNews/bin/Debug/netstandard2.0/ArtNews.pdb
+/Users/roswergarcia/Projects/ArtNews/ArtNews/obj/Debug/netstandard2.0/ArtNews.csprojAssemblyReference.cache
 /Users/roswergarcia/Projects/ArtNews/ArtNews/obj/Debug/netstandard2.0/App.xaml.g.cs
 /Users/roswergarcia/Projects/ArtNews/ArtNews/obj/Debug/netstandard2.0/AppShell.xaml.g.cs
 /Users/roswergarcia/Projects/ArtNews/ArtNews/obj/Debug/netstandard2.0/Views/AboutPage.xaml.g.cs
@@ -11,7 +9,9 @@
 /Users/roswergarcia/Projects/ArtNews/ArtNews/obj/Debug/netstandard2.0/ArtNews.csproj.CoreCompileInputs.cache
 /Users/roswergarcia/Projects/ArtNews/ArtNews/obj/Debug/netstandard2.0/ArtNews.AssemblyInfoInputs.cache
 /Users/roswergarcia/Projects/ArtNews/ArtNews/obj/Debug/netstandard2.0/ArtNews.AssemblyInfo.cs
-/Users/roswergarcia/Projects/ArtNews/ArtNews/obj/Debug/netstandard2.0/XamlC.stamp
 /Users/roswergarcia/Projects/ArtNews/ArtNews/obj/Debug/netstandard2.0/ArtNews.dll
 /Users/roswergarcia/Projects/ArtNews/ArtNews/obj/Debug/netstandard2.0/ArtNews.pdb
-/Users/roswergarcia/Projects/ArtNews/ArtNews/obj/Debug/netstandard2.0/ArtNews.csprojAssemblyReference.cache
+/Users/roswergarcia/Projects/ArtNews/ArtNews/bin/Debug/netstandard2.0/ArtNews.deps.json
+/Users/roswergarcia/Projects/ArtNews/ArtNews/bin/Debug/netstandard2.0/ArtNews.dll
+/Users/roswergarcia/Projects/ArtNews/ArtNews/bin/Debug/netstandard2.0/ArtNews.pdb
+/Users/roswergarcia/Projects/ArtNews/ArtNews/obj/Debug/netstandard2.0/XamlC.stamp

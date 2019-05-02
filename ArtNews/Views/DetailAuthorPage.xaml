@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="ArtNews.Views.DetailAuthorPage" Title="">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms" x:Class="ArtNews.Views.DetailAuthorPage">
     <ContentPage.ToolbarItems>
         <ToolbarItem Order="Primary" Icon="share_icon.png" Text="Share" />
     </ContentPage.ToolbarItems>
@@ -11,17 +11,32 @@
                     <RowDefinition Height="Auto" />
                     <RowDefinition Height="Auto" />
                     <RowDefinition Height="Auto" />
-                    <RowDefinition Height="*" />
+                    <RowDefinition Height="Auto" />
                 </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition />
                     <ColumnDefinition />
                 </Grid.ColumnDefinitions>
-                <Label Text="Sandro Botticelli" FontSize="Large" />
-                <Label Grid.Row="1" Grid.ColumnSpan="2" Text="March 1, 1445 - May 17, 1510" />
-                <Label Grid.Row="2" Grid.ColumnSpan="2" FontSize="Small" Text="Candelo Botticelli, formerly known as Alexandro Felipe, was a Florentine artist in the early Renaissance." />
+                <Label Grid.Row="0" Text="{Binding Author.Name}" FontSize="Large"/>
+                <Label Grid.Row="1" Grid.ColumnSpan="2" Text="{Binding Author.Dates}" />
+                <Label Grid.Row="2" Grid.ColumnSpan="2" FontSize="Small" Text="{Binding Author.Description}" />
                 <Label Grid.Row="3" Text="Highlight Paintin" Margin="0,10" />
-                <Label Grid.Row="3" Grid.Column="1" Text="More &gt;" FontSize="Small" HorizontalTextAlignment="End" Margin="0,10" />
+                <Label Grid.Row="3" Grid.Column="1" Text="More &gt;" FontSize="Small" HorizontalTextAlignment="End" Margin="0,10, 0, 0" />
+                <CollectionView Grid.Row="4" Grid.ColumnSpan="2" ItemsSource="{Binding Author.Highlights}" ItemsLayout="{x:Static ListItemsLayout.HorizontalList}" HeightRequest="300">
+                    <CollectionView.HeightRequest>
+        <OnIdiom x:TypeArguments="x:Double">
+            <OnIdiom.Phone>300</OnIdiom.Phone>
+            <OnIdiom.Tablet>400</OnIdiom.Tablet>
+        </OnIdiom>
+    </CollectionView.HeightRequest>
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Grid WidthRequest="200" Padding="3">
+                                <ffimageloading:CachedImage Aspect="AspectFill" Source="{Binding Banner}" />
+                            </Grid>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
             </Grid>
         </ScrollView>
     </ContentPage.Content>
