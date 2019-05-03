@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="ArtNews.Views.ArtDetailPage">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             xmlns:sharedTransitions="clr-namespace:Plugin.SharedTransitions;assembly=Plugin.SharedTransitions"
+             x:Class="ArtNews.Views.ArtDetailPage">
     <ContentPage.Content>
-        <Label Text="{Binding ArtItem.Name}" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="5*" />
+                <RowDefinition Height="5*" />
+            </Grid.RowDefinitions>
+            <ffimageloading:CachedImage Source="{Binding ArtItem.Banner}" BackgroundColor="Blue" Aspect="AspectFill" VerticalOptions="FillAndExpand" sharedTransitions:Transition.Tag="{Binding ArtItem.Number}"/>
+            <Grid Grid.Row="1" Padding="10">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Label Text="{Binding ArtItem.Name}" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" />
+            </Grid>
+        </Grid>
     </ContentPage.Content>
 </ContentPage>

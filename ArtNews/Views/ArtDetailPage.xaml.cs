@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using ArtNews.Models;
 using ArtNews.ViewModels;
+using Plugin.SharedTransitions;
 using Xamarin.Forms;
 
 namespace ArtNews.Views
@@ -14,6 +15,8 @@ namespace ArtNews.Views
         {
             InitializeComponent();
             BindingContext = viewModel = new ArtDetailViewModel(parameter);
+
+            SharedTransitionNavigationPage.SetSharedTransitionDuration(this, 500);
         }
     }
 }

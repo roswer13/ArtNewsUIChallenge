@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms" x:Class="ArtNews.Views.DetailAuthorPage">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms" xmlns:sharedTransitions="clr-namespace:Plugin.SharedTransitions;assembly=Plugin.SharedTransitions" x:Class="ArtNews.Views.DetailAuthorPage">
     <ContentPage.Resources>
         <ResourceDictionary>
             <Style x:Key="AuthorNameStyle" TargetType="Label">
@@ -48,7 +48,7 @@
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
                         <Grid WidthRequest="200" Padding="3">
-                            <ffimageloading:CachedImage Aspect="AspectFill" Source="{Binding Banner}" />
+                            <ffimageloading:CachedImage Aspect="AspectFill" Source="{Binding Banner}" sharedTransitions:Transition.TagGroup="1" sharedTransitions:Transition.Tag="{Binding Number}" />
                         </Grid>
                     </DataTemplate>
                 </CollectionView.ItemTemplate>

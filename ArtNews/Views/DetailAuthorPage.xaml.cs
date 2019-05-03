@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using ArtNews.Models;
 using ArtNews.ViewModels;
+using Plugin.SharedTransitions;
 using Xamarin.Forms;
 
 namespace ArtNews.Views
@@ -20,6 +21,7 @@ namespace ArtNews.Views
         {
             if (e.SelectedItem == null) return;
 
+            SharedTransitionNavigationPage.SetSelectedTagGroup(this, 1);
             var itemSelect = ((CollectionView)sender).SelectedItem as ArtItem;
             await Navigation.PushAsync(new ArtDetailPage(itemSelect));
         }
