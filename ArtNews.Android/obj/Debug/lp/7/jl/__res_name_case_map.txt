@@ -1,0 +1,3 @@
+anim/fade_in.xml;anim/fade_in.xml
+anim/fade_out.xml;anim/fade_out.xml
+transition/navigation_transition.xml;transition/navigation_transition.xml

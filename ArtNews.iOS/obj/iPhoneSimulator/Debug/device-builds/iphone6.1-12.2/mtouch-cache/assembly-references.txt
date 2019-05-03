@@ -44,3 +44,5 @@
 /Users/roswergarcia/.nuget/packages/webp.touch/1.0.8/lib/Xamarin.iOS10/WebP.Touch.dll
 /Users/roswergarcia/Projects/ArtNews/ArtNews/bin/Debug/netstandard2.0/ArtNews.dll
 /Users/roswergarcia/.nuget/packages/xamarin.forms/3.6.0.264807/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll
+/Users/roswergarcia/.nuget/packages/autofac/4.9.2/lib/netstandard2.0/Autofac.dll
+/Users/roswergarcia/.nuget/packages/xamarin.plugin.sharedtransitions/1.0.0.1/lib/xamarinios10/Plugin.SharedTransitions.dll

@@ -1,5 +1,7 @@
 /Users/roswergarcia/Projects/ArtNews/ArtNews.iOS/bin/iPhoneSimulator/Debug/ArtNews.iOS.exe
 /Users/roswergarcia/Projects/ArtNews/ArtNews.iOS/bin/iPhoneSimulator/Debug/ArtNews.iOS.pdb
+/Users/roswergarcia/Projects/ArtNews/ArtNews.iOS/bin/iPhoneSimulator/Debug/Autofac.dll
+/Users/roswergarcia/Projects/ArtNews/ArtNews.iOS/bin/iPhoneSimulator/Debug/Autofac.pdb
 /Users/roswergarcia/Projects/ArtNews/ArtNews.iOS/bin/iPhoneSimulator/Debug/WebP.Touch.dll
 /Users/roswergarcia/Projects/ArtNews/ArtNews.iOS/bin/iPhoneSimulator/Debug/Xamarin.Essentials.dll
 /Users/roswergarcia/Projects/ArtNews/ArtNews.iOS/bin/iPhoneSimulator/Debug/Xamarin.Essentials.pdb
@@ -52,14 +54,9 @@
 /Users/roswergarcia/Projects/ArtNews/ArtNews.iOS/bin/iPhoneSimulator/Debug/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll
 /Users/roswergarcia/Projects/ArtNews/ArtNews.iOS/bin/iPhoneSimulator/Debug/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll
 /Users/roswergarcia/Projects/ArtNews/ArtNews.iOS/bin/iPhoneSimulator/Debug/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/roswergarcia/Projects/ArtNews/ArtNews.iOS/bin/iPhoneSimulator/Debug/Plugin.SharedTransitions.dll
 /Users/roswergarcia/Projects/ArtNews/ArtNews.iOS/bin/iPhoneSimulator/Debug/ArtNews.dll
 /Users/roswergarcia/Projects/ArtNews/ArtNews.iOS/bin/iPhoneSimulator/Debug/ArtNews.pdb
-/Users/roswergarcia/Projects/ArtNews/ArtNews.iOS/obj/iPhoneSimulator/Debug/ArtNews.iOS.csprojAssemblyReference.cache
-/Users/roswergarcia/Projects/ArtNews/ArtNews.iOS/obj/iPhoneSimulator/Debug/ArtNews.iOS.csproj.CoreCompileInputs.cache
-/Users/roswergarcia/Projects/ArtNews/ArtNews.iOS/obj/iPhoneSimulator/Debug/XamlC.stamp
-/Users/roswergarcia/Projects/ArtNews/ArtNews.iOS/obj/iPhoneSimulator/Debug/ArtNews.iOS.csproj.CopyComplete
-/Users/roswergarcia/Projects/ArtNews/ArtNews.iOS/obj/iPhoneSimulator/Debug/ArtNews.iOS.exe
-/Users/roswergarcia/Projects/ArtNews/ArtNews.iOS/obj/iPhoneSimulator/Debug/ArtNews.iOS.pdb
 /Users/roswergarcia/Projects/ArtNews/ArtNews.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone6.1-12.2/ibtool/_BundleResourceWithLogicalName.items
 /Users/roswergarcia/Projects/ArtNews/ArtNews.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone6.1-12.2/actool/_PartialAppManifest.items
 /Users/roswergarcia/Projects/ArtNews/ArtNews.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone6.1-12.2/actool/_BundleResourceWithLogicalName.items
@@ -77,3 +74,9 @@
 /Users/roswergarcia/Projects/ArtNews/ArtNews.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone6.1-12.2/optimized/heart_icon.png
 /Users/roswergarcia/Projects/ArtNews/ArtNews.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone6.1-12.2/optimized/share_icon.png
 /Users/roswergarcia/Projects/ArtNews/ArtNews.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone6.1-12.2/optimized/
+/Users/roswergarcia/Projects/ArtNews/ArtNews.iOS/obj/iPhoneSimulator/Debug/ArtNews.iOS.csprojAssemblyReference.cache
+/Users/roswergarcia/Projects/ArtNews/ArtNews.iOS/obj/iPhoneSimulator/Debug/ArtNews.iOS.csproj.CoreCompileInputs.cache
+/Users/roswergarcia/Projects/ArtNews/ArtNews.iOS/obj/iPhoneSimulator/Debug/XamlC.stamp
+/Users/roswergarcia/Projects/ArtNews/ArtNews.iOS/obj/iPhoneSimulator/Debug/ArtNews.iOS.csproj.CopyComplete
+/Users/roswergarcia/Projects/ArtNews/ArtNews.iOS/obj/iPhoneSimulator/Debug/ArtNews.iOS.exe
+/Users/roswergarcia/Projects/ArtNews/ArtNews.iOS/obj/iPhoneSimulator/Debug/ArtNews.iOS.pdb

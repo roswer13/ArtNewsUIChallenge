@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     "MonoAndroid,Version=v8.1": {
+      "Autofac/4.9.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Autofac.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Autofac.dll": {}
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -419,14 +428,31 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Plugin.SharedTransitions/1.0.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "3.1.0.697729"
+        },
+        "frameworkAssemblies": [
+          "Java.Interop"
+        ],
+        "compile": {
+          "lib/monoandroid81/Plugin.SharedTransitions.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid81/Plugin.SharedTransitions.dll": {}
+        }
+      },
       "ArtNews/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Autofac": "4.9.2",
           "Xamarin.Essentials": "1.0.1",
           "Xamarin.FFImageLoading": "2.4.6.929",
           "Xamarin.FFImageLoading.Forms": "2.4.6.929",
-          "Xamarin.Forms": "3.6.0.264807"
+          "Xamarin.Forms": "3.6.0.264807",
+          "Xamarin.Plugin.SharedTransitions": "1.0.0.1"
         },
         "compile": {
           "bin/placeholder/ArtNews.dll": {}
@@ -438,6 +464,25 @@
     }
   },
   "libraries": {
+    "Autofac/4.9.2": {
+      "sha512": "1MrHauRcpaPW3CpVYIhQey8o9vodRool0XfK7QcUu8v2SgQVYF/uzUILF/Lwgx8qvkY5DycyWEDj1WYNsDNcDA==",
+      "type": "package",
+      "path": "autofac/4.9.2",
+      "files": [
+        ".signature.p7s",
+        "autofac.4.9.2.nupkg.sha512",
+        "autofac.nuspec",
+        "lib/net45/Autofac.dll",
+        "lib/net45/Autofac.pdb",
+        "lib/net45/Autofac.xml",
+        "lib/netstandard1.1/Autofac.dll",
+        "lib/netstandard1.1/Autofac.pdb",
+        "lib/netstandard1.1/Autofac.xml",
+        "lib/netstandard2.0/Autofac.dll",
+        "lib/netstandard2.0/Autofac.pdb",
+        "lib/netstandard2.0/Autofac.xml"
+      ]
+    },
     "System.Numerics.Vectors/4.5.0": {
       "sha512": "nATsBTD2CKr4AYN6eRszhX4sptImWmBJwB/U6XKCWWfnCcrTBw8XSCm3QA9gjppkHTr8OkXUY21MR91D3QZXsw==",
       "type": "package",
@@ -1227,6 +1272,24 @@
         "lib/uap10.0/Xamarin.Forms.Xaml.xml",
         "xamarin.forms.3.6.0.264807.nupkg.sha512",
         "xamarin.forms.nuspec"
+      ]
+    },
+    "Xamarin.Plugin.SharedTransitions/1.0.0.1": {
+      "sha512": "Yi1Mlf1N7JlDMI+z08PSqtdLsCGYthlbPhQA69YI2LHSOAd/oHQw8dhDCAZ8TflpkmHpl+JVwac0alSb6Kf/ug==",
+      "type": "package",
+      "path": "xamarin.plugin.sharedtransitions/1.0.0.1",
+      "files": [
+        ".signature.p7s",
+        "lib/monoandroid81/Plugin.SharedTransitions.dll",
+        "lib/monoandroid81/Plugin.SharedTransitions.xml",
+        "lib/netstandard1.0/Plugin.SharedTransitions.dll",
+        "lib/netstandard1.0/Plugin.SharedTransitions.xml",
+        "lib/netstandard2.0/Plugin.SharedTransitions.dll",
+        "lib/netstandard2.0/Plugin.SharedTransitions.xml",
+        "lib/xamarinios10/Plugin.SharedTransitions.dll",
+        "lib/xamarinios10/Plugin.SharedTransitions.xml",
+        "xamarin.plugin.sharedtransitions.1.0.0.1.nupkg.sha512",
+        "xamarin.plugin.sharedtransitions.nuspec"
       ]
     },
     "ArtNews/1.0.0": {

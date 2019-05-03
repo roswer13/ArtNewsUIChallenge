@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "28fe06eb5d098cee18fcd162bbb287b8bff687c2"
+    "signature": "9cb72bca032726bcec2b81ee2b3fff5999460dc0"
   },
   "compilationOptions": {},
   "targets": {
@@ -9,14 +9,24 @@
     ".NETStandard,Version=v2.0/": {
       "ArtNews/1.0.0": {
         "dependencies": {
+          "Autofac": "4.9.2",
           "NETStandard.Library": "2.0.3",
           "Xamarin.Essentials": "1.0.1",
           "Xamarin.FFImageLoading": "2.4.6.929",
           "Xamarin.FFImageLoading.Forms": "2.4.6.929",
-          "Xamarin.Forms": "3.6.0.264807"
+          "Xamarin.Forms": "3.6.0.264807",
+          "Xamarin.Plugin.SharedTransitions": "1.0.0.1"
         },
         "runtime": {
           "ArtNews.dll": {}
+        }
+      },
+      "Autofac/4.9.2": {
+        "runtime": {
+          "lib/netstandard2.0/Autofac.dll": {
+            "assemblyVersion": "4.9.2.0",
+            "fileVersion": "4.9.2.0"
+          }
         }
       },
       "Microsoft.NETCore.Platforms/1.1.0": {},
@@ -83,6 +93,17 @@
             "fileVersion": "2.0.0.0"
           }
         }
+      },
+      "Xamarin.Plugin.SharedTransitions/1.0.0.1": {
+        "dependencies": {
+          "Xamarin.Forms": "3.6.0.264807"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Plugin.SharedTransitions.dll": {
+            "assemblyVersion": "1.0.0.1",
+            "fileVersion": "1.0.0.1"
+          }
+        }
       }
     }
   },
@@ -91,6 +112,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Autofac/4.9.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1MrHauRcpaPW3CpVYIhQey8o9vodRool0XfK7QcUu8v2SgQVYF/uzUILF/Lwgx8qvkY5DycyWEDj1WYNsDNcDA==",
+      "path": "autofac/4.9.2",
+      "hashPath": "autofac.4.9.2.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",
@@ -140,6 +168,13 @@
       "sha512": "sha512-T7gYS3PoGNtp6D7GAX7fF4QzR7NC36NNQSiuEb5TXO8rEqkZGwpC4u/6S62rH0wL3dabWNVpJPPnL5jZvWeoVg==",
       "path": "xamarin.forms/3.6.0.264807",
       "hashPath": "xamarin.forms.3.6.0.264807.nupkg.sha512"
+    },
+    "Xamarin.Plugin.SharedTransitions/1.0.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Yi1Mlf1N7JlDMI+z08PSqtdLsCGYthlbPhQA69YI2LHSOAd/oHQw8dhDCAZ8TflpkmHpl+JVwac0alSb6Kf/ug==",
+      "path": "xamarin.plugin.sharedtransitions/1.0.0.1",
+      "hashPath": "xamarin.plugin.sharedtransitions.1.0.0.1.nupkg.sha512"
     }
   }
 }

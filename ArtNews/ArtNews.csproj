@@ -15,8 +15,11 @@
     <PackageReference Include="Xamarin.Essentials" Version="1.0.1" />
     <PackageReference Include="Xamarin.FFImageLoading" Version="2.4.6.929" />
     <PackageReference Include="Xamarin.FFImageLoading.Forms" Version="2.4.6.929" />
+    <PackageReference Include="Xamarin.Plugin.SharedTransitions" Version="1.0.0.1" />
+    <PackageReference Include="Autofac" Version="4.9.2" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Style\" />
+    <Folder Include="ViewModels\Base\" />
   </ItemGroup>
 </Project>

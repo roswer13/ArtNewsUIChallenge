@@ -3,6 +3,10 @@ using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using ArtNews.Services;
 using ArtNews.Views;
+using ArtNews.ViewModels.Base;
+using System.Threading.Tasks;
+using ArtNews.ViewModels;
+using Plugin.SharedTransitions;
 
 namespace ArtNews
 {
@@ -14,7 +18,7 @@ namespace ArtNews
             InitializeComponent();
 
             //DependencyService.Register<MockDataStore>();
-            MainPage = new NavigationPage(new DetailAuthorPage());
+            MainPage = new SharedTransitionNavigationPage(new DetailAuthorPage());
         }
 
         protected override void OnStart()

@@ -110,13 +110,14 @@ public class MonoPackageManager {
 class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
 		/* We need to ensure that "ArtNews.Android.dll" comes first in this list. */
-		"ArtNews.Android.dll",
 		"ArtNews.dll",
+		"Autofac.dll",
 		"FFImageLoading.dll",
 		"FFImageLoading.Forms.dll",
 		"FFImageLoading.Forms.Platform.dll",
 		"FFImageLoading.Platform.dll",
 		"FormsViewGroup.dll",
+		"Plugin.SharedTransitions.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",
 		"Xamarin.Android.Arch.Lifecycle.Runtime.dll",
