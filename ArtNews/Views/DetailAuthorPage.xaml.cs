@@ -20,8 +20,8 @@ namespace ArtNews.Views
         {
             if (e.SelectedItem == null) return;
 
-            var artDetail = e.SelectedItem as ArtItem;
-            await DisplayAlert("Alert", "" , "OK");
+            var itemSelect = ((CollectionView)sender).SelectedItem as ArtItem;
+            await Navigation.PushAsync(new ArtDetailPage(itemSelect));
         }
     }
 }

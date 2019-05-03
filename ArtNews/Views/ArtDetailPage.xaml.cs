@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using ArtNews.Models;
 using ArtNews.ViewModels;
 using Xamarin.Forms;
 
@@ -9,10 +10,10 @@ namespace ArtNews.Views
     {
         ArtDetailViewModel viewModel;
 
-        public ArtDetailPage(object parameter)
+        public ArtDetailPage(ArtItem parameter)
         {
             InitializeComponent();
-            BindingContext = viewModel = new ArtDetailViewModel();
+            BindingContext = viewModel = new ArtDetailViewModel(parameter);
         }
     }
 }

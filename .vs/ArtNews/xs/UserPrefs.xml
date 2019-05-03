@@ -1,21 +1,21 @@
 ﻿<Properties StartupConfiguration="{5D1D2E6C-25A0-41FB-AA12-76708B8F6D05}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="ArtNews/Views/DetailAuthorPage.xaml.cs">
     <Files>
-      <File FileName="ArtNews/Views/DetailAuthorPage.xaml.cs" Line="24" Column="1" />
       <File FileName="ArtNews/Views/DetailAuthorPage.xaml" />
+      <File FileName="ArtNews/Views/DetailAuthorPage.xaml.cs" Line="26" Column="29" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ArtNews" expanded="True">
             <Node name="ArtNews" expanded="True">
-              <Node name="Dependencies" selected="True" />
               <Node name="Models" expanded="True" />
               <Node name="Services" expanded="True" />
               <Node name="ViewModels" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="ArtDetailPage.xaml" expanded="True" />
-                <Node name="DetailAuthorPage.xaml" expanded="True" />
+                <Node name="DetailAuthorPage.xaml" expanded="True">
+                  <Node name="DetailAuthorPage.xaml.cs" selected="True" />
+                </Node>
               </Node>
             </Node>
             <Node name="ArtNews.iOS" expanded="True" />
@@ -28,9 +28,7 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.ArtNews.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.FF21F060-C489-4480-88B1-B025CE292CD5" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/roswergarcia/Projects/ArtNews/ArtNews/Views/DetailAuthorPage.xaml.cs" relfile="ArtNews/Views/DetailAuthorPage.xaml.cs" line="24" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.ArtNews.Android AndroidDesignerPreferredTheme="Theme.DeviceDefault.Light.NoActionBar.Fullscreen" PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
